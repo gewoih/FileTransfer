@@ -2,8 +2,8 @@ program FileTransfer;
 
 uses
   Vcl.Forms,
-  ufFileTransfer in 'ufFileTransfer.pas' {MainForm},
-  ufGetID in 'ufGetID.pas' {Form1};
+  ufFileTransferFrame in 'ufFileTransferFrame.pas' {MainFrame},
+  ufMainForm in 'ufMainForm.pas' {MainForm};
 
 {$R *.res}
 
@@ -11,6 +11,5 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TMainForm, MainForm);
-  Application.CreateForm(TForm1, Form1);
   Application.Run;
 end.

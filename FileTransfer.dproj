@@ -105,12 +105,12 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="ufFileTransfer.pas">
-            <Form>MainForm</Form>
+        <DCCReference Include="ufFileTransferFrame.pas">
+            <Form>MainFrame</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="ufGetID.pas">
-            <Form>Form1</Form>
+        <DCCReference Include="ufMainForm.pas">
+            <Form>MainForm</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">
